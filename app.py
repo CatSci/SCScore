@@ -16,7 +16,7 @@ st.markdown('''
     More information are in related paper [SCScore](https://pubs.acs.org/doi/10.1021/acs.jcim.7b00622)
     ''')
 
-st.warning('For script you need input chirality specified SMILES, not any other [types](https://ics.uci.edu/~dock/manuals/DaylightTheoryManual/theory.smiles.html). Daylight SMILES from ChemDoodle and Isomeric are ok', icon="⚠️")
+st.warning('For script you need input chirality specified SMILES, not any other [types](https://ics.uci.edu/~dock/manuals/DaylightTheoryManual/theory.smiles.html). Daylight SMILES type from ChemDoodle and isomeric type are required', icon="⚠️")
 
 model = SCScorer()
 model.restore()
